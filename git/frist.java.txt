@@ -1,0 +1,13 @@
+public class html {
+	public static void main(String[] args) {
+		
+		WebDriver driver = new FirefoxDriver();
+		driver.get("file:///C:/Users/ARCHANA/Desktop/web5.html");
+		WebElement ele1=driver.findElement(By.id("textfield1"));
+		WebElement ele2=driver.findElement(By.name("ln"));
+		ele1.sendKeys("abhi");
+		ele2.sendKeys("kumar");
+		
+	}
+
+}
